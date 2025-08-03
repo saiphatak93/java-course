@@ -6,9 +6,7 @@ public class array{
                 if(max<arr[i]){
                     max=arr[i];
                 }else{
-
                 }
-
             }
             System.out.println(max);
     }
