@@ -1,6 +1,6 @@
 public class student{
     String studentName;
-    int studentId;
+     static int studentId;
     String subject;
     float marks;
     String address;
@@ -17,7 +17,6 @@ public class student{
         System.out.println(studentName+"\t"+studentId+"\t"+subject+"\t\t"+marks+"\t\t"+address);
     }
 
-
     public static void main(String[] args) {
         student s1;
         s1=new student("Pranay",1,"Commerce",70.56f,"Mumbai");
@@ -30,6 +29,11 @@ public class student{
         
         student s4;
         s4=new student("Priti",6,"Science",70.22f,"Mumbai");
+
+        
+        System.out.println();
+        int c=student.studentId;
+        System.out.println(c);
 
         s1.get_details();
         s2.get_details();

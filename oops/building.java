@@ -18,6 +18,8 @@ public class building{
     }
 
     public static void main(String[] args) {
+        int n=13;
+        int v=78;
         building b1 ;
         b1 = new building("Marathon",19,"red");
         
@@ -26,6 +28,10 @@ public class building{
 
         b1.print_Details();
         b2.print_Details();
+
+        calculator c=new calculator();
+        int a=c.add(n, v);
+        System.out.println("addition is "+ a);
 
 
     }
